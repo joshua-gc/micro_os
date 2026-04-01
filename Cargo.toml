@@ -8,3 +8,8 @@ panic = "abort"
 
 [profile.release]
 panic = "abort"
+
+[[bin]]
+name="micro_os"
+test = false
+bench = false

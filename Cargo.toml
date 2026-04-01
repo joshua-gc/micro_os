@@ -3,11 +3,12 @@ name = "micro_os"
 version = "0.1.0"
 edition = "2024"
 
-[profile.dev]
-panic = "abort"
-
-[profile.release]
-panic = "abort"
+#Don't need these any more since we specify
+#abort in .json file
+#[profile.dev]
+#panic = "abort"
+#[profile.release]
+#panic = "abort"
 
 [[bin]]
 name="micro_os"

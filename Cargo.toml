@@ -14,3 +14,6 @@ edition = "2024"
 name="micro_os"
 test = false
 bench = false
+
+[dependencies]
+bootloader = "0.9"

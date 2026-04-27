@@ -1,0 +1,3 @@
+After build run
+
+qemu-system-x86_64 -drive format=raw,file=target/x86_64-micro_os/debug/bootimage-micro_os.bin
